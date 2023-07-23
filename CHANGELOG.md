@@ -1,5 +1,6 @@
 # Next version
 + Fix documentation
++ Upgrade dependencies
 
 ## 1.0.0
 + First commit

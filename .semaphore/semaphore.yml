@@ -70,7 +70,7 @@ blocks:
             docker run 
             --rm
             -e SONAR_HOST_URL="https://sonarcloud.io"
-            -e SONAR_LOGIN=$SONAR_TOKEN
+            -e SONAR_TOKEN=$SONAR_TOKEN
             -v "/home/semaphore/npm-pkg-concatenate:/usr/src"
             sonarsource/sonar-scanner-cli:$SONARSCANNER_VERSION
 
